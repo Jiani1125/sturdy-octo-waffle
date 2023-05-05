@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+
+    body {
+      font-size: 20px;
+    }
+    .header {
+      background-color: #868686;
+      color: #fff;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding: 20px;
+    }
+    .header-text {
+      font-size: 50px;
+      margin-bottom: -10px;
+      font-weight: 600;
+    }
+
+    .spacer{
+      height:5px;
+      background-color:#fff
+    }
+
+    .container {
+    display: flex;
+    background-color: #444;
+  }
+  .left {
+    background-color: #df2525;
+    color: #fff;
+    padding: 20px;
+  }
+  .right {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    word-spacing: 1em;
+  }
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 180px;
+    }
+    .sidebar-item {
+      background-color: #4dc9f2;
+      color: #fff;
+      font-size: 24px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .main-content {
+      width: 80%;
+      padding: 40px;
+      font-size: 24px;
+      line-height: 1.5;
+    }
+    .footer {
+      background-color: #868686;
+      color: #fff;
+      height: 100px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-text">Chania</div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="container">
+    <div class="left">
+      <h8>Home</h8>
+    </div>
+    <div class="right">
+      <h8>News</h8>
+      <h8>Contact</h8>
+      <h8>About</h8>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="sidebar">
+      <div class="sidebar-item">The Flight</div>
+      <div class="sidebar-item">The City</div>
+      <div class="sidebar-item">The Island</div>
+      <div class="sidebar-item">The Food</div>
+    </div>
+
+    <div class="main-content">
+      <h1>The City</h1>
+      <p>Chania is the capital of Chania region on the island of Crete</p >
+    </div>
+  </div>
+
+  <div class="footer">Footer Text</div>
+</body>
+</html>
