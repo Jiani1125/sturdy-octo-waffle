@@ -1,0 +1,121 @@
+  body {
+  background-color: #c3b4b4;
+  margin: 0;
+  color:#2a0505
+  padding: 5px;
+  }
+  
+  h1 {
+  font-size: 40px;
+  color: #3e0707;
+  padding: 5px,5px,5px,5px;
+  margin: 25px,50px,40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  h2{
+  font-size:30px ;
+  color: #4c0a0a;
+  }
+
+  h3{
+  font-size: 25px;
+  color: #600d0d;
+  }
+  
+  p {
+  line-break: auto;
+  margin:5px,10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  a {
+  color: rgb(34, 81, 221);
+  text-decoration: none;
+  }
+  
+  .button {
+  display: inline-block; 
+  background-color: #f77963;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  translate: -20px;
+  }
+  
+  #header {
+  margin: 20px;
+  padding:5px;
+  background-color: #5e392b;
+  }
+  
+  #header .logo {
+  font-size: 25px;
+  color: #c3b4b4;
+  }
+
+  #header ul li a{
+  margin-right: 30px;
+  color: #f6caa6;
+  }
+  
+  li a:hover {
+  background-color: rgb(250, 182, 104);
+  }
+  
+  #banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px;
+  }
+  
+  #banner .content {
+  flex: 1;
+  }
+  
+  #banner .image {
+  flex: 1;
+  }
+  
+  #banner img {
+  max-width: 100%;
+  margin: 160px,20px;
+  }
+  
+  .features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 40px;
+  }
+
+  .posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  }
+  
+  .posts article {
+  border: 5px dashed #f6ebc5;
+  padding: 30px;
+  }
+  
+  #sidebar {
+  background-color: #e7d8d8;
+  padding: 20px;
+  }
+
+  #sidebar #menu ul {
+  list-style: square;
+  padding: 0;
+  margin: 0;
+  color: #2a0505;
+  }
+  
+  #footer {
+  background-color: #84483c;
+  color: #fff;
+  text-align: center;
+  }
